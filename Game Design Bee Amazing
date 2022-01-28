@@ -1,0 +1,64 @@
+Game Design Bee Amazing
+
+
+How the game starts: 
+Press any key to start (i.e. press the space bar to start the game). The bee starts 10 px from the maze
+Once the game starts the bee moving right. It starts moving right with a constant speed immediately.
+
+How to play the game: 
+Use four arrow keys to change your direction because you will always be moving at constant speed  
+See link on how the movement works 
+https://scratch.mit.edu/projects/11623762 
+You have 1.5 minutes to get through each maze 
+
+What are the objectives: 
+To get to the other other side to the flowers through the maze
+Avoid humans, don’t the wall, and get honey pots 
+
+How to lose/gain time and die: 
+Hitting a wall decreases time by 10 seconds 
+Honey pot: honey pots are placed in predetermined places (see pictures below). They appear for random amounts of time (i.e. 5 seconds or 1 minute) and then disappear. Collecting a honey pot adds five seconds to your time You can collect a honey pot by running into it. There are only honey pots starting at level two. 
+Once honey pots are introduced there should be a small blurb above the maze telling the player about them (i.e. you can now collect honey pots by running into them. The catch is that you have to collect them before they disappear.) 
+Deaths:
+Instant Death: you instantly die if you run into a person. If you run into a person the computer alerts you that you have lost your stinger (i.e. console.alert(“death”)). 
+Death 2: if time runs out and you don’t complete the maze then you die 
+If you die, you can restart the level you died on, and your time resets back to 1.5 minutes
+
+
+Levels: 
+There are five levels
+Each time you level up, the constant speed of the bee increases by 10% and the bee decrease in size by 10% so that it fits in the maze
+The mazes get bigger (look below for pictures- the mazes are not random. They have been pregenerated. See below for pictures) 
+There are more humans (increase by 2 each time, except for level five, which has the same number as level four, and you start with one human at level one) - the people are moving back and forth (see maze level pictures below) 
+After you beat a level then a “next level”  button shows up on your screen on the lower right corner of the screen. 
+If you beat all five levels, your screen flashes to a flower field and it says “congrats you have succeeded” 
+If you lose on a certain level then a “restart level” button appears on the lower left corner of your screen. If pressed the level you lost on restarts and the timer restarts at 1.5 minutes 
+The scale of the bee changes with each level
+Bee gets smaller each level to match dimensions of maze
+Decrease size by 10% (you can change this accordingly if you think some size decrease is better) 
+
+End page after finishing levels is flower field: 
+
+
+Maze Designs for each level are in the folder: transparent maze png's are available as well as designs of each level with honeypots, humans, bee, and flower placement. 
+
+
+What do all the game pieces consist of? (i.e. flowers, water bucket, bullets, coins, camels, spaceships)
+Bee
+Honey pot
+People
+Maze walls  (five different predetermined mazes) 
+Flower field at end once you finish each maze 
+Timer 
+
+Graphics / Art / Design
+What are the characters going to look like? 
+(it is totally acceptable to create some art and submit the art for this part of the project)
+Either pull some stuff off the web or make your own with something like (https://www.piskelapp.com/
+ (Links to an external site.)
+
+Is there an art style to follow?
+Cute
+
+
+
