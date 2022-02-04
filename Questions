@@ -1,25 +1,33 @@
 Questions + Concerns
 
 When the bee hits a wall, does it bounce off, stick on the wall, or reset to a certain position? If it bounces off, how far does it bounce off? 
+	Answer: yes it bounces off and goes backward twice the length of the bee. 
 
 Is there a cooldown for losing time when running into the wall? If you stick to the wall and there’s no cooldown, do you just instantly lose all your time?
+	Answer: you don't stick to the wall you just bounce off, so no cool down.
 
 How fast do the people and the bee move?
+	Answer: people move at 75 percent of the speed of the bee
 
 Some of the level designs and person placements are near impossible to pass and require a time window that only lasts a fraction of a section, which is made even harder considering you can’t stop moving or stop yourself on the walls.
+	Answer: you can make the starting speed slower. you have reign over how you program it 
 
 For some of the later levels, 80% of each maze is completely useless. Some levels (like level 2) have a definitive path from beginning to end that doesn’t even allow for any “wrong turns” because there’s no turns to make before you hit the exit.
+	Answer: why does that matter, the bee doesnt' have to move through all parts of the maze. level 2 is supposed to be easy. 
 
 The later mazes are quite big for the time limit of 1:30. Visibility could suffer because of how small the bee becomes.
+	Answer: if you program the starting speed to be slow enough the bee will move slowly enough by the end to get through - it's supposed to get harder/ near impossible haha. The bee won't become smaller, the photos might be small but on a webpage all the mazes can be enlarged so the passageways are bigger and so is the bee. 
 
 
 Suggestions
 
 Increase the roaming range of the humans to allow for more windows of opportunity for the bee to pass through
+- ok this sounds fine
 
 Remove the mechanic of losing time when running into walls (not everyone is a god at precision platforming/maneuvering)
+- nah dont do that its the player's problem if they're not good at it
 
 Non constant movement, or structure the walls so you can use them to stop yourself for better control
-
+- this makes the maze too easy
 
 
