@@ -16,7 +16,7 @@ For some of the later levels, 80% of each maze is completely useless. Some level
 	Answer: why does that matter, the bee doesnt' have to move through all parts of the maze. level 2 is supposed to be easy. 
 
 The later mazes are quite big for the time limit of 1:30. Visibility could suffer because of how small the bee becomes.
-	Answer: if you program the starting speed to be slow enough the bee will move slowly enough by the end to get through - it's supposed to get harder/ near impossible haha. The bee won't become smaller, the photos might be small but on a webpage all the mazes can be enlarged so the passageways are bigger and so is the bee. 
+	Answer: it's supposed to get harder/ near impossible haha. The bee won't become smaller, the photos might be small but on a webpage all the mazes can be enlarged so the passageways are bigger and so is the bee. 
 
 
 Suggestions
@@ -32,5 +32,5 @@ Non constant movement, or structure the walls so you can use them to stop yourse
 
 
 
-OK FINE SPEED IS 4 PIXELS/Second
+OK FINE SPEED IS 4 PIXELS/Second, pls refer to the second line under the "Levels:" section on the tech spec for other level speeds
 
