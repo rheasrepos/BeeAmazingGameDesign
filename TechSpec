@@ -1,0 +1,169 @@
+Note: all classes should implement game class
+Classes:
+Bee
+Variables
+speed (float)
+posX (float)
+posY (float)
+size (float)
+direction (int)
+Methods
+move()
+Looped as long as gameActive in Game is true
+Move by speed every second based on direction (0 = right, 1 = up, 2 = left, 3 = down)
+changeDirection(take in key press)
+
+
+Should trigger when an arrow key is pressed
+Changes the bee’s direction to the specified direction 
+checkIfHitWall()
+Looped
+Check if in contact with any walls by constructing lines from walls in Game and checking intersection (hitbox collision mechanics)
+If true
+Call decreaseTime in Game
+checkIfHitPot()
+Looped
+Check if in contact with pots
+If true
+Call collect() in HoneyPot
+checkIfHitEnemy()
+Looped
+Check if in (x,y) overlaps with enemies’
+If true
+Call die()
+checkIfHitGoal()
+Looped
+Check if in contact with the goal flower
+If true and currentLevel in Game classl < 4
+Call nextLevel() in Game class
+If true and currentLevel in Game class = 4
+Call win() in Game
+die()
+Call gameOver() in Game
+Walls
+Collision mechanics
+Variables
+posX (float)
+posY (float)
+Width (float)
+Methods
+HoneyPot
+Variables
+Time (int)
+posX (float)
+posY (float)
+Methods
+collect()
+Make honey pot disappear
+Increase timer in Game class by 5 seconds
+disappear()
+Looped
+Decrease time every second
+When time reaches zero, make honey pot disappear
+Goal
+Variables
+posX (float)
+posY (float)
+Enemy
+Variables
+speed (float)
+posX (float)
+posY (float)
+firstBound (array of x, y position)
+secondBound (array of x, y position)
+Methods
+move()
+Looped
+Move at speed in between bounds, going back and forth
+Level
+Variables
+beeSize
+goalX
+goalY
+enemies (array of Enemys)
+walls (array of Walls)
+pots (array of HoneyPots)
+Game
+Variables
+timer (seconds in int)
+levels (array of levels starts at index 0)
+currentLevel = 0 (int)
+gameActive (boolean)
+Methods
+startGame()
+Sets gameActive to true
+Makes all elements visible (if not already)
+Sets currentLevel to 0
+Sets timer to 90
+Uses first array of Pots
+Uses first array of Enemies
+Uses first array of Walls
+nextLevel()
+Increases currentLevel by 1
+Goes to next array of Pots, Enemies, and Walls
+decreaseTime()
+Reduces timer by 10 seconds
+tickTime()
+Always active if gameActive is true
+Looped
+Reduces timer by 1 second every second
+restartLevel()
+Resets everything to the starting position of the level
+decreaseBeeSize()
+Decrease bee size to Stage[currentLevel].beeSize
+timeRunsOut()
+Looped
+Check if timer = 0
+Calls gameOver()
+levelCompleted()
+startNewLevel()
+completeAnimation()
+showPotTip()
+Display guide about honey pots at specific level once they are unlocked
+gameOver()
+Displays game over screen
+Sets gameActive to false
+Display restart button
+Calls restartLevel()
+win()
+Only happens when currentLevel is 5
+Displays victory screen
+Display restart button
+Sets gameActive to false
+Hide all other elements
+
+Diagram
+
+
+Game
+
+
+Walls
+Dependence: game
+Interfaces: bee
+
+
+
+
+Honeypot
+Dependence: game
+Interfaces: bee
+
+
+Goal
+Dependence: game
+Interfaces: bee
+
+
+Enemy
+Dependence: game
+Interfaces: bee
+
+
+Bee
+
+Dependence: game
+Interfaces: enemy, walls, honeypot, goal, game
+
+
+
